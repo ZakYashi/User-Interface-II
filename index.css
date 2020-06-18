@@ -48,17 +48,18 @@ html {
     
 }
 body {
-    margin: 10px 50px;
+    margin: 10px 50px 10px 50px;
     display: flex;
+    flex-direction: column;
 }
-.container {
-    display: flex-wrap;
+/*.container {
+    display: flex;
 }
 header {
     display: flex;
-    /*align-items: center;*/
+    align-items: center;
    
-}
+}*/
 h1 {
     color: red;
     padding: 2%;
@@ -67,13 +68,13 @@ h1 {
 .nav-bar a {
     display: flex;
     flex-flow: row-reverse wrap;
-    padding: 1%;
+    padding: 4%;
     justify-content: space-between;
 }
 nav a {
     text-decoration: none;
     border : 2px;
-    font-size: 1.5rem;
+    font-size: 1.8rem;
     /*flex-flow: row-reverse wrap;
     flex-direction: row-reverse;
     /*justify-content: flex-end;
@@ -83,27 +84,37 @@ nav a {
     flex-flow: row-reverse wrap;
 }*/
 section {
-    display: flex-row;
-    box-sizing: 100% ;
+    display: flex;
+    flex-direction: column;
+
+    box-sizing: 50% ;
     padding: 10%;
     border: 100%;
-    border-spacing: 1 px;
+    border-spacing: 1px;
     background-color: green;
     margin: 2%;
-    justify-content: center;
+    
 }
 /*p {
     font-size: 2rem;
-    flex-direction: ; */
-}
-.name-box {
-    box-sizing: 100% ;*/
-    padding: 10%;
+    flex-direction: ; 
+}*/
+.name-box p {
+    box-sizing: 50%;
     /* border: 100%; */
-    border-spacing: 1 px;
+    border-spacing: 10%;
+    border-color: black;
+    border-left-width: 50px;
     background-color: green;
-    margin: 2%;
+    margin: 20%;
+    justify-content: center;
+    align-content: center;
 }
 .project-button {
     background-color: grey;
+    box-sizing: 10%;
+}
+.footer-content {
+    display: flex;
+    justify-content: center;
 }
