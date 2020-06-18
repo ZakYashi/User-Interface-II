@@ -44,18 +44,19 @@ table {
 
 /* Begin styles*/
 html {
-    font-size: 62.5%;
-    font: 1rem;
+    font-size: 62.5%; 
+    
 }
 body {
     margin: 10px 50px;
+    display: flex;
 }
 .container {
     display: flex-wrap;
 }
 header {
     display: flex;
-    align-items: center;
+    /*align-items: center;*/
    
 }
 h1 {
@@ -63,7 +64,7 @@ h1 {
     padding: 2%;
 
 }
-.nav-bar {
+.nav-bar a {
     display: flex;
     flex-flow: row-reverse wrap;
     padding: 1%;
@@ -89,10 +90,11 @@ section {
     border-spacing: 1 px;
     background-color: green;
     margin: 2%;
+    justify-content: center;
 }
-p {
+/*p {
     font-size: 2rem;
-    flex-direction: ; 
+    flex-direction: ; */
 }
 .name-box {
     box-sizing: 100% ;*/
