@@ -43,22 +43,40 @@ table {
 }
 
 /* Begin styles*/
+html {
+    font-size: 62.5%;
+    font: 1rem;
+}
 header {
     display: flex;
-
+    flex-flow: row;
 }
 h1 {
     color: red;
-    
+
 }
 
 nav {
     text-decoration: none;
     border : 2px
 }
-.name-box {
-    box-sizing: 50% 0;
-    border: 4 px;
+section {
+    display: flex-row;
+    box-sizing: 100% ;
+    padding: 10%;
+    border: 100%;
+    border-spacing: 1 px;
     background-color: green;
-
+    margin: 2%;
+}
+.name-box {
+    /*box-sizing: 100% ;*/
+    padding: 10%;
+    /* border: 100%; */
+    border-spacing: 1 px;
+    background-color: green;
+    margin: 2%;
+}
+.project-button {
+    background-color: grey;
 }
