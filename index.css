@@ -47,19 +47,38 @@ html {
     font-size: 62.5%;
     font: 1rem;
 }
+body {
+    margin: 10px 50px;
+}
+.container {
+    display: flex-wrap;
+}
 header {
     display: flex;
-    flex-flow: row;
+   
 }
 h1 {
     color: red;
+    padding: 2%;
 
 }
-
-nav {
+.nav-bar {
+    display: flex;
+    flex-flow: row-reverse wrap;
+    padding: 1%;
+    justify-content: space-between;
+}
+nav a {
     text-decoration: none;
-    border : 2px
+    border : 2px;
+    /*flex-flow: row-reverse wrap;
+    flex-direction: row-reverse;
+    /*justify-content: flex-end;
+    justify-content: space-between;*/
 }
+/*nav a {
+    flex-flow: row-reverse wrap;
+}*/
 section {
     display: flex-row;
     box-sizing: 100% ;
