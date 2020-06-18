@@ -55,6 +55,7 @@ body {
 }
 header {
     display: flex;
+    align-items: center;
    
 }
 h1 {
@@ -71,6 +72,7 @@ h1 {
 nav a {
     text-decoration: none;
     border : 2px;
+    font-size: 1.5rem;
     /*flex-flow: row-reverse wrap;
     flex-direction: row-reverse;
     /*justify-content: flex-end;
@@ -88,8 +90,12 @@ section {
     background-color: green;
     margin: 2%;
 }
+p {
+    font-size: 2rem;
+    flex-direction: ; 
+}
 .name-box {
-    /*box-sizing: 100% ;*/
+    box-sizing: 100% ;*/
     padding: 10%;
     /* border: 100%; */
     border-spacing: 1 px;
