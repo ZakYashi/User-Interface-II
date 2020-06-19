@@ -45,13 +45,19 @@ table {
 /* Begin styles*/
 html {
     font-size: 62.5%; 
-    
+    font-family: sans-serif;
 }
 body {
     display: flex;
     margin: 10px 50px 10px 50px;
     
     flex-direction: column;
+}
+#header {
+    display: flex;
+    height: 50px ;
+    display: block;
+    /*flex-direction: row;*/
 }
 /*.container {
     display: flex;
@@ -61,9 +67,10 @@ header {
     align-items: center;
    
 }*/
+/* i must take this line because it effects all buttons and i"m changing the h1 to logo.
 h1 button {
    display: flex; 
-}
+}*/
 h1 {
     color: red;
     padding: 2%;
@@ -119,6 +126,10 @@ section {
 .project-button {
     background-color: grey;
     box-sizing: 10%;
+}
+img {
+    width: 40%;
+    height: auto;
 }
 .footer-content {
     display: flex;
