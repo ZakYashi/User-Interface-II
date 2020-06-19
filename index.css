@@ -48,8 +48,9 @@ html {
     
 }
 body {
-    margin: 10px 50px 10px 50px;
     display: flex;
+    margin: 10px 50px 10px 50px;
+    
     flex-direction: column;
 }
 /*.container {
@@ -60,21 +61,26 @@ header {
     align-items: center;
    
 }*/
+h1 button {
+   display: flex; 
+}
 h1 {
     color: red;
     padding: 2%;
+    font-size: 1.4rem;
 
 }
-.nav-bar a {
-    display: flex;
+
+.nav-bar button {
+    
     flex-flow: row-reverse wrap;
-    padding: 4%;
-    justify-content: space-between;
+    padding: .3%;
+    /*justify-content: space-between;*/
 }
-nav a {
+nav button {
     text-decoration: none;
-    border : 2px;
-    font-size: 1.8rem;
+    border : 0px;
+    font-size: 1rem;
     /*flex-flow: row-reverse wrap;
     flex-direction: row-reverse;
     /*justify-content: flex-end;
