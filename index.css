@@ -159,6 +159,11 @@ section {
 p {
     padding: 1rem;   
 }
+p.info {
+    font-size: 1.2rem;
+    text-justify: center; 
+    padding: 4px;
+}
 .project-button {
     background-color: grey;
     box-sizing: 10%;
