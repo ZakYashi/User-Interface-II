@@ -128,8 +128,10 @@ section {
     box-sizing: 10%;
 }
 img {
-    width: 40%;
+    width: 29%;
     height: auto;
+    margin: 2%;
+    
 }
 .footer-content {
     display: flex;
