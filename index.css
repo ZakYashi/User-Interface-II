@@ -97,24 +97,24 @@ nav button {
     flex-flow: row-reverse wrap;
 }*/
 section {
-    display: flex;
-    flex-direction: column;
+   /* display: flex;
+    flex-direction: column;*/
 
-    box-sizing: 50% ;
+    box-sizing: 40% ;
     padding: 10%;
     border: 100%;
     border-spacing: 1px;
     background-color: green;
     margin: 2%;
-    
+   justify-content: center; 
 }
 /*p {
     font-size: 2rem;
     flex-direction: ; 
 }*/
-.name-box p {
+/*.name-box p {
     box-sizing: 50%;
-    /* border: 100%; */
+    /* border: 100%; 
     border-spacing: 10%;
     border-color: black;
     border-left-width: 50px;
@@ -122,6 +122,17 @@ section {
     margin: 20%;
     justify-content: center;
     align-content: center;
+}*/
+.name-box p {
+    font-size: 4rem;
+    
+}
+p {
+    padding: 1rem;
+    
+}
+.name-box {
+    
 }
 .project-button {
     background-color: grey;
@@ -133,6 +144,17 @@ img {
     margin: 2%;
     
 }
+.boxes{
+    text-align: center;
+    margin:10px auto; 
+}
+.boxes a {
+    margin:0px 20px;
+    display:inline-block;
+    text-decoration:none;
+    color:black;
+}
+
 .footer-content {
     display: flex;
     justify-content: center;
