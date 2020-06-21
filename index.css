@@ -1,0 +1,232 @@
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
+
+/* Begin styles*/
+html {
+    font-size: 62.5%; 
+    font-family: sans-serif;
+}
+body {
+    display: flex;
+    margin: 10px 50px 10px 50px;
+    
+    flex-direction: column;
+}
+#header {
+    display: flex;
+    display: block;
+    text-align: center;
+}
+/*.container {
+    display: flex;
+}
+header {
+    display: flex;
+    align-items: center;
+   
+}*/
+/* i must take this line because it effects all buttons and i"m changing the h1 to logo.
+h1 button {
+   display: flex; 
+}*/
+.content-container {
+    display: flex;
+    text-align: center;
+    /*flex: none;*/
+    justify-content:space-between;
+    padding-right: 12%;
+}
+h1 {
+    display: flex;
+    color: gray;  
+    font-size: 2.3rem;
+    /*padding: 1% 30% 1% 1%;
+    I can unblock the previous line if 
+    loading continually causes the 
+    nav links to stack upon page load*/
+  
+}
+nav.nav-bar  { 
+    display: flex; 
+    flex: none; 
+    /*padding: 1% 1% 0% 10%; */
+    align-content:  center;
+}
+button.home {
+    display: flex;
+    padding: 3% 7%;
+    text-align: center;
+    color: white;
+    text-decoration: none;
+    /*box-sizing: border-box;*/
+    width: 100%;
+    background: royalblue;
+    border: 2% solid rgb(16, 15, 16);
+}
+button.about {
+    display: flex;
+    padding: 3% 7%;
+  text-align: center;
+  color: white;
+  text-decoration: none;
+  /*float: left;*/
+  width: 100%;
+  background: royalblue;
+  border: 2% solid black;
+   
+}
+button.project {
+    display: flex;
+    padding: 3% 6%;
+  text-align: center;
+  color: white;
+  text-decoration: none;
+  /*float: left;*/
+  width: 100%;
+  background: royalblue;
+  border: 2% solid black;
+}
+button.contact {
+    display: flex;
+    padding: 3% 6%;
+  text-align: center;
+  color: white;
+  text-decoration: none;
+  /*float: left;*/
+  width: 100%;
+  background: royalblue;
+  border: 2% solid black;
+}
+nav button {
+    /*display: flex;
+    display: inline;*/
+    text-decoration: none;
+    border : 2%;
+    font-size: 1.4rem;
+    /*flex-flow: row-reverse wrap;
+    flex-direction: row-reverse;
+    /*justify-content: flex-end;
+    justify-content: space-between;*/
+}
+/*nav  {
+    flex-flow: row-reverse wrap;
+}*/
+section {
+    text-align: center;
+    box-sizing: 40% ;
+    padding: 12% 5%;
+    border: 100%;
+    border-spacing: 1px;
+    background-color: rgb(42, 188, 190);
+    margin: 4% 10%;
+}
+.name-box p {
+    font-size: 4rem;   
+}
+p {
+    padding: 1rem;   
+}
+p.info {
+    font-size: 1.2rem;
+    text-justify: center; 
+    padding: 4px;
+}
+.project-button {
+    background-color: grey;
+    box-sizing: 10%;
+}
+.img1 {
+    width: 90%;
+    height: auto;
+    margin: 1%;
+    
+}
+.img2 {
+    width: 83%;
+    height: auto;
+    margin: 1% 1% 1% 8%;    
+}
+.img3 {
+    width: 110%;
+    height: auto;
+    margin: 1%;    
+}
+.img4 {
+    width: 90%;
+    height: auto;
+    margin: 1%;    
+}
+.img5 {
+    width: 146%;
+    height: auto;
+    margin: 1%;   
+}
+.img6 {
+    width: 71%;
+    height: auto;
+    margin: 1% 1% 3% 21%;    
+}
+.boxes{
+    display: flex;
+    text-align: center;  
+    margin:10px auto;
+}
+.boxes a {
+   /* margin:0px 20px;
+    /*display:inline-block;*/
+    text-decoration:none;
+    color:black;
+}
+.caption {
+    padding: 6px;
+    font-size: 1.5rem;
+}
+.footer-content {
+    display: flex;
+    justify-content: center;
+}
+footer nav {
+    display: flex;
+}
